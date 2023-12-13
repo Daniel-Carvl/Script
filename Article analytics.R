@@ -37,7 +37,7 @@ library(jtools)
 library(MASS)
 library(stargazer)
 
-X <- read.table("DADOS.txt", h = T, sep="\t")
+X <- read.table("DATE.txt", h = T, sep="\t")
 
 #Testing the premise whether the number of inflorescence in the 
 #blocks could influence the observed visits
